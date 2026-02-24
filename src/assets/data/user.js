@@ -1,16 +1,28 @@
-const User = {
-data: {
-    name: 'Muoebonam Chukwuneke',
-    number: '000557',
-    TRF: '25NG000557NNAT126A',
-    date: '19-02-2026', 
-    center: 'NG126'
-},
-Scores:{
-    listening: '7.5',
-    reading: '7',
-    writing: '6.5',
-    speaking: '7.5',
-    overall: '7.5'
-}
-}
+const User = [
+        {
+        id: 1,
+        title: 'Candidate Number',
+        data: '00557'
+    },
+        {
+        id: 2,
+        title: 'TRF Number',
+        data: '253NG9823PR532TRRT8Y'
+    },
+        {
+        id: 3,
+        title: 'Test date',
+        data: '19/02/2026'
+    },
+        {
+        id: 4,
+        title: 'Candidate name',
+        data: 'Neke'
+    },
+        {
+        id: 5,
+        title: 'Centre number',
+        data: ' NG126'
+    },
+    
+]
