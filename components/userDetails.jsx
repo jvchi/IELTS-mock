@@ -1,6 +1,7 @@
 export default function UserDetails(){
+
   return(
-    <div className="w-[80%] h-[700px] bg-neutral-50 mx-auto mt-8 p-8">
+    <div className="w-[80%] h-[700px] bg-neutral-50 mx-auto mt-8 p-8 flex justify-around flex-col">
       <h1 className="font-bold text-2xl"> 
           IELTS Academic
       </h1>
@@ -11,6 +12,11 @@ export default function UserDetails(){
         <li>kaj j cva</li>
         <li>akjs vjk </li>
       </ul>
+
+      <div className="w-max h-[100px] bg-neutral-800 text-white rounded">
+        <h1>About this result</h1>
+        <span>Your results online are not official. They are provisional only until you recieve your official Test Report Form (TRF).</span>
+      </div>
     </div>
   )
 }
