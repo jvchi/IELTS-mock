@@ -1,3 +1,4 @@
+import { User } from "../src/assets/data/user"
 export default function UserDetails(){
 
   return(
@@ -6,16 +7,16 @@ export default function UserDetails(){
           IELTS Academic
       </h1>
       <ul className="grid grid-cols-2">
-        <li>abufiu</li>
-        <li>kj avva</li>
-        <li>kjabjkb</li>
-        <li>kaj j cva</li>
-        <li>akjs vjk </li>
+        <li className="font-bold">{User.data.number}</li>
+        <li className="font-bold">{User.data.name}</li>
+        <li>{User.data.TRF}</li>
+        <li>{User.data.center}</li>
+        <li>{User.data.date}</li>
       </ul>
 
       <div className="w-full h-[100px] bg-neutral-800 text-white rounded grid grid-cols-1 place-items-center items-center">
         <h1>About this result</h1>
-        <span>Your results online are not official. They are provisional only until you recieve your official Test Report Form (TRF).</span>
+        <span>Your results online are not official. They are provisional only until you receive your official Test Report Form (TRF).</span>
       </div>
     </div>
   )
