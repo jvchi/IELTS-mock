@@ -3,7 +3,7 @@ import { User } from "../src/assets/data/user"
 export default function UserDetails(){
 
   return(
-    <div className="w-[80%] h-[700px] bg-neutral-50 mx-auto mt-8 px-16 py-12 flex justify-between flex-col relative">
+    <div className="w-[80%] h-[600px] bg-neutral-50 mx-auto mt-8 px-16 py-12 flex justify-between flex-col relative">
       <h1 className="font-semibold text-5xl "> 
           IELTS Academic
       </h1>
