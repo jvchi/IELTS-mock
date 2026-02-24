@@ -13,7 +13,7 @@ export default function UserDetails(){
         <li>akjs vjk </li>
       </ul>
 
-      <div className="w-max h-[100px] bg-neutral-800 text-white rounded">
+      <div className="w-full h-[100px] bg-neutral-800 text-white rounded grid grid-cols-1 place-items-center items-center">
         <h1>About this result</h1>
         <span>Your results online are not official. They are provisional only until you recieve your official Test Report Form (TRF).</span>
       </div>
