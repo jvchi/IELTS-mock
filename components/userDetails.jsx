@@ -3,16 +3,16 @@ import { User } from "../src/assets/data/user"
 export default function UserDetails(){
 
   return(
-    <div className="w-[80%] h-[700px] bg-neutral-50 mx-auto mt-8 p-8 flex justify-between flex-col relative">
-      <h1 className="font-bold text-3xl "> 
+    <div className="w-[80%] h-[700px] bg-neutral-50 mx-auto mt-8 px-16 py-12 flex justify-between flex-col relative">
+      <h1 className="font-semibold text-5xl "> 
           IELTS Academic
       </h1>
 
       {/* User details */}
       <ul className="grid grid-cols-2">
         {User.map((item) => (
-          <li key={item.id} className="flex flex-col gap-2 mb-4">
-            <span className="font-bold text-2xl text-red-500">{item.title}</span>
+          <li key={item.id} className="flex flex-col gap-2 mb-4 my-12">
+            <span className="font-medium text-3xl text-red-900">{item.title}</span>
             <span className="font-medium">{item.data}</span>
           </li>
         ))}
